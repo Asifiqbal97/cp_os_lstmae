@@ -1,0 +1,15 @@
+held_out_family: Spoofing
+alpha_stage1: 0.05
+alpha_stage2: 0.05
+score_alpha: 0.5
+train_csv: data/raw/merged_train_labelled.csv
+test_csv: data/raw/merged_test_labelled.csv
+benign_train_csv: data/raw/Benign_train_labelled.csv
+benign_test_csv: data/raw/Benign_test_labelled.csv
+seq_len: 10
+hidden_dim: 64
+latent_dim: 16
+stage2_epochs: 30
+stage2_batch_size: 256
+min_cluster_size: 30
+random_state: 42
